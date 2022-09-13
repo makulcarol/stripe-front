@@ -7,7 +7,7 @@ import { CreditCardResponse } from 'src/app/models/creditCardResponse';
   providedIn: 'root',
 })
 export class StripeService {
-  baseURL: string = 'http://localhost:8080/stripe/check';
+  baseURL: string = 'https://stripe-back.azurewebsites.net/stripe/check';
 
   constructor(private http: HttpClient) {}
 

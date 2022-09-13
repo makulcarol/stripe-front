@@ -1,7 +1,7 @@
 export class CreditCardRequest {
   cardNumber?: string;
   expireDate?: string;
-  expMounth?: string;
+  expMonth?: string;
   expYear?: string;
   securityCode?: string;
   bandeiraCard?: string;

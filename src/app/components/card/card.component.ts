@@ -35,7 +35,7 @@ export class CardComponent implements OnInit {
         cardNumber: infos[0],
         expireDate: `&{infos[1]}&{infos[2]}`,
         securityCode: infos[3],
-        expMounth: infos[1],
+        expMonth: infos[1],
         expYear: infos[2],
         status: false,
         isProcessed: false,
