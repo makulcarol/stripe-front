@@ -4,5 +4,5 @@ export class CreditCardResponse {
   code?: string;
   message?: string;
   type?: string;
-  isOk?: boolean;
+  ok?: boolean;
 }
