@@ -52,7 +52,7 @@ export class AppComponent implements OnInit {
             card.isProcessed = true;
             this.testedCards = this.testedCards + 1;
             card.errorMessage = info.message;
-            card.status = info.isOk;
+            card.status = info.ok;
             if (!card.status) this.reprovedCards = this.reprovedCards + 1;
             else this.aprovedCards = this.aprovedCards + 1;
             card.statusProcessed = 'Verificado';
